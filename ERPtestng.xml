@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ERP Stock Accounting" parallel="methods" thread-count="1" >
+  <test name="LoginPage Module">
+    <classes>
+      <class name="Scripts.Loginmodule"/>
+    </classes>
+  </test>
+  <test name="HomePage Module">
+    <classes>
+      <class name="Scripts.Homepage"/>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="7" total="11" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ERP Stock Accounting" duration-ms="19567" started-at="2022-06-21T06:38:51Z" finished-at="2022-06-21T06:39:10Z">
+    <groups>
+    </groups>
+    <test name="LoginPage Module" duration-ms="10608" started-at="2022-06-21T06:38:51Z" finished-at="2022-06-21T06:39:02Z">
+      <class name="Scripts.Loginmodule">
+        <test-method status="PASS" signature="openERPapp()[pri:0, instance:Scripts.Loginmodule@573f2bb1]" name="openERPapp" is-config="true" duration-ms="2541" started-at="2022-06-21T12:08:51Z" finished-at="2022-06-21T12:08:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openERPapp -->
+        <test-method status="PASS" signature="TC1login()[pri:1, instance:Scripts.Loginmodule@573f2bb1]" name="TC1login" duration-ms="747" started-at="2022-06-21T12:08:53Z" finished-at="2022-06-21T12:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1login -->
+        <test-method status="PASS" signature="closeERPapp()[pri:0, instance:Scripts.Loginmodule@573f2bb1]" name="closeERPapp" is-config="true" duration-ms="56" started-at="2022-06-21T12:08:54Z" finished-at="2022-06-21T12:08:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeERPapp -->
+        <test-method status="PASS" signature="openERPapp()[pri:0, instance:Scripts.Loginmodule@573f2bb1]" name="openERPapp" is-config="true" duration-ms="2114" started-at="2022-06-21T12:08:54Z" finished-at="2022-06-21T12:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openERPapp -->
+        <test-method status="PASS" signature="TC3invalid()[pri:2, instance:Scripts.Loginmodule@573f2bb1]" name="TC3invalid" duration-ms="2691" started-at="2022-06-21T12:08:56Z" finished-at="2022-06-21T12:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3invalid -->
+        <test-method status="PASS" signature="closeERPapp()[pri:0, instance:Scripts.Loginmodule@573f2bb1]" name="closeERPapp" is-config="true" duration-ms="58" started-at="2022-06-21T12:08:59Z" finished-at="2022-06-21T12:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeERPapp -->
+        <test-method status="PASS" signature="openERPapp()[pri:0, instance:Scripts.Loginmodule@573f2bb1]" name="openERPapp" is-config="true" duration-ms="2145" started-at="2022-06-21T12:08:59Z" finished-at="2022-06-21T12:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openERPapp -->
+        <test-method status="PASS" signature="TC4Reset()[pri:4, instance:Scripts.Loginmodule@573f2bb1]" name="TC4Reset" duration-ms="185" started-at="2022-06-21T12:09:01Z" finished-at="2022-06-21T12:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4Reset -->
+        <test-method status="PASS" signature="closeERPapp()[pri:0, instance:Scripts.Loginmodule@573f2bb1]" name="closeERPapp" is-config="true" duration-ms="55" started-at="2022-06-21T12:09:01Z" finished-at="2022-06-21T12:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeERPapp -->
+      </class> <!-- Scripts.Loginmodule -->
+    </test> <!-- LoginPage Module -->
+    <test name="HomePage Module" duration-ms="8945" started-at="2022-06-21T06:39:02Z" finished-at="2022-06-21T06:39:10Z">
+      <class name="Scripts.Homepage">
+        <test-method status="PASS" signature="openERPapp()[pri:0, instance:Scripts.Homepage@4f933fd1]" name="openERPapp" is-config="true" duration-ms="2920" started-at="2022-06-21T12:09:02Z" finished-at="2022-06-21T12:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openERPapp -->
+        <test-method status="PASS" signature="TC14updatestock()[pri:7, instance:Scripts.Homepage@4f933fd1]" name="TC14updatestock" duration-ms="5963" started-at="2022-06-21T12:09:04Z" finished-at="2022-06-21T12:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14updatestock -->
+        <test-method status="PASS" signature="closeERPapp()[pri:0, instance:Scripts.Homepage@4f933fd1]" name="closeERPapp" is-config="true" duration-ms="59" started-at="2022-06-21T12:09:10Z" finished-at="2022-06-21T12:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeERPapp -->
+      </class> <!-- Scripts.Homepage -->
+    </test> <!-- HomePage Module -->
+  </suite> <!-- ERP Stock Accounting -->
+</testng-results>
